@@ -1,0 +1,98 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    outline: none;
+    border: none; 
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 4rem 10%;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+.navbar a {
+    font-size: 2.5rem;
+    color: white;
+    /* color: rgb(0, 255, 242); */
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* border-right: 0.2rem solid rgb(0, 255, 242);
+    border-left: 0.2rem solid rgb(0, 255, 242); */
+}
+
+.projects-a,
+.skills-a,
+.contact-a {
+    border-left: 0.2rem solid white;
+}
+
+
+
+.navbar a:hover {
+    cursor: pointer;
+    /* color: white; */
+    color: rgb(0, 255, 242);
+}
+
+.main {
+    height: 90vh;
+    background: url('../images/atl-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+}
+
+.header-div h1 {
+    /* font-size: 12rem;
+    color: white;
+    position: absolute; */
+    /* left: -80rem;
+    top: 20rem;
+    width: 100rem; */
+    text-align: center;
+    font-size: 12rem;
+    color: white;
+}
+
+.header-div h1:hover {
+    color: rgb(0, 255, 242);
+}
