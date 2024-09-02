@@ -96,3 +96,58 @@ section {
 .header-div h1:hover {
     color: rgb(0, 255, 242);
 }
+
+.about {
+    margin-top: 10rem;
+}
+
+.section-heading {
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+
+.about .box-container {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 5rem; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-jr {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.box-left {
+    border: 0.1rem solid rgb(0, 255, 242);
+    padding: 2rem;
+    border-radius: 4rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+ 
+
+/* .about .box-container .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.about .box-container .box-left p {
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    max-width: 70rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about .box-container .box img {
+    height: 40rem;
+    width: 30rem;
+    object-fit: cover;
+    border-radius: 4rem;
+    border: 0.3rem solid rgb(0, 255, 242);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
