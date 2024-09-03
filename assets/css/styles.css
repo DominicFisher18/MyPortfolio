@@ -22,6 +22,10 @@ section {
     padding: 4rem 10%;
 }
 
+.onscroll {
+    background-color: black;
+}
+
 .header {
     background-color: black;
     color: white;
@@ -32,6 +36,7 @@ section {
     justify-content: center;
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 
 .navbar a {
@@ -150,4 +155,96 @@ section {
     border-radius: 4rem;
     border: 0.3rem solid rgb(0, 255, 242);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.header-div-2 {
+    border-bottom: 0.3rem solid rgb(0, 255, 242);
+    width: 30rem;
+    /* display: flex;
+    align-self: center; */
+    margin: 0 auto;
+}
+
+.projects {
+    background-color: rgb(235, 235, 235);
+    margin-top: 10rem;
+}
+
+.projects-header {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.projects-box-container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-box {
+    display: flex;
+    flex-direction: row;
+    width: 110rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 4rem;
+    background-color: white;
+    margin-bottom: 5rem;
+}
+
+.projects-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    width: 50rem;
+    border-radius: 2rem;
+}
+
+.projects-box-left,
+.projects-box-right {
+    padding: 3rem;
+}
+
+.projects-box-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 4rem;
+}
+
+.projects-box-right h2 {
+    font-size: 3rem;
+    align-self: center;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 255, 242);
+}
+
+.projects-box-right p {
+    font-size: 2rem;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-box-right button {
+    padding: 2rem 3rem;
+    background-color: black;
+    color: rgb(0, 255, 242);
+    border-radius: 2rem;
+}
+
+.projects-box-right button:hover {
+    cursor: pointer;
+}
+
+.repo-button {
+    margin-right: 2rem;
+}
+
+.website-button {
+    margin-left: 2rem;
 }
