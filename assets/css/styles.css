@@ -165,7 +165,8 @@ section {
     margin: 0 auto;
 }
 
-.projects {
+.projects,
+.contact {
     background-color: rgb(235, 235, 235);
     margin-top: 10rem;
 }
@@ -247,4 +248,47 @@ section {
 
 .website-button {
     margin-left: 2rem;
+}
+
+.header-div-3 {
+    border-bottom: 0.3rem solid rgb(0, 255, 242);
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.main-skills,
+.secondary-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.main-skills-header,
+.secondary-skills-header {
+    font-size: 4rem;
+}
+
+.main-icons,
+.secondary-icons {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-icons i,
+.secondary-icons i {
+    font-size: 5rem;
+    padding: 1rem;
+}
+.main-2,
+.secondary-2 {
+    margin-top: 2rem;
 }
