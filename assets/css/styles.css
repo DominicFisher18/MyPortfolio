@@ -418,3 +418,74 @@ section {
     background-color: var(--orange);
     color: black;
 } */
+
+@media (max-width: 1300px) {
+    html {
+        font-size: 55%;
+    }
+    .box-left {
+        width: 35rem;
+    }
+}
+
+@media (max-width: 850px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 40%;
+    }
+
+    .header-div h1 {
+        margin-bottom: 40rem;
+    }
+
+    .image-box {
+        margin-bottom: 4rem;
+    }
+
+    .projects-box {
+        flex-direction: column;
+        width: 65rem;
+        justify-content: center;
+    }
+
+    .projects-box-right {
+        padding-left: 2rem;
+    }
+
+    .projects-box-left {
+        margin-left: 5rem;
+    }
+
+    .button-div {
+        margin-top: 2rem;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 33%;
+    }
+
+    .box-left {
+        width: 50rem;
+    }
+
+    .box-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 350px) {
+    html {
+        font-size: 30%;
+    }
+}
