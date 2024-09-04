@@ -171,7 +171,8 @@ section {
     margin-top: 10rem;
 }
 
-.projects-header {
+.projects-header,
+.contacts-header {
     font-size: 5rem;
     text-align: center;
     margin-top: 10rem;
@@ -250,7 +251,8 @@ section {
     margin-left: 2rem;
 }
 
-.header-div-3 {
+.header-div-3,
+.header-div-4 {
     border-bottom: 0.3rem solid rgb(0, 255, 242);
     width: 20rem;
     margin: 0 auto;
@@ -292,3 +294,127 @@ section {
 .secondary-2 {
     margin-top: 2rem;
 }
+
+.contact {
+    background-color: black;
+    color: white;
+}
+
+/* .contacts-header {
+    color: rgb(0, 255, 242);
+} */
+
+.contact div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.contact .box-container .box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.contact .box-container .box-right {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(236, 236, 236); */
+    border: 0.3rem solid rgb(0, 255, 242);
+    border-radius: 3rem;
+}
+
+.contact .box-container .box h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.contact .box-container .box p {
+    font-size: 2rem;
+    margin-right: 8rem;
+    
+}
+
+.contact-paragraph {
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.contact .box-container .box div {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.contact .box-container .box div ion-icon {
+    font-size: 2.5rem;
+}
+
+.contact .box-container .box div p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+
+.contact .box-container .box-right input {
+    border: 0.1rem solid black;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    margin: 2rem 2rem 0rem 2rem;
+    border-radius: 2rem;
+}
+
+.contact .box-container .box-right textarea {
+    border: 0.1rem solid black;
+    padding: 1rem;
+    margin: 2rem 2rem 4rem 2rem;
+    border-radius: 2rem;
+}
+
+.contact .box-container .box-right button {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0rem 2rem 2rem 2rem;
+    width: 20rem;
+    align-self: center;
+    border-radius: 1.5rem;
+    background-color: black;
+    color: rgb(0, 255, 242);
+    border: 0.3rem solid rgb(0, 255, 242);
+}
+
+.reach-out i {
+    font-size: 4rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+.my-email {
+    font-size: 2.5rem;
+}
+.socials-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .contact .box-container .box-right button:hover {
+    background-color: var(--orange);
+    color: black;
+} */
